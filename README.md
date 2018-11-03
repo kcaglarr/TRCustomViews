@@ -1,1 +1,5 @@
 # TRCustomViews
+
+
+#Install
+pod 'TRCustomViews'
