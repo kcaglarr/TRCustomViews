@@ -8,32 +8,32 @@
 
 import UIKit
 
-class CustomLoader: UIView {
+public class CustomLoader: UIView {
     
-    static let customLoaderInstance = CustomLoader()
+    public static let customLoaderInstance = CustomLoader()
     
-    var mainView:UIView!
-    var alphaValueOfImage:CGFloat! = 0.4
-    var alphaValueOfLabel:CGFloat! = 0.7
-    var viewWidth: CGFloat! = 200
-    var viewHeight: CGFloat! = 200
-    var imageWidth:CGFloat! = 100
-    var imageHeight:CGFloat! = 100
+    public var mainView:UIView!
+    public var alfaValueOfLoaderView:CGFloat! = 0.4
+    public var alphaValueOfLabel:CGFloat! = 0.7
+    public var viewWidth: CGFloat! = 200
+    public var viewHeight: CGFloat! = 200
+    public var imageWidth:CGFloat! = 100
+    public var imageHeight:CGFloat! = 100
     
     //if you want to show a text (optional)
-    var loadingText:String? = ""
+    public var loadingText:String? = ""
     
     //    loader view:
-    lazy var loaderView:UIView = {
+    public lazy var loaderView:UIView = {
         let view = UIView()
         view.isUserInteractionEnabled = false
-        view.backgroundColor = UIColor.black.withAlphaComponent(alphaValueOfImage)
+        view.backgroundColor = UIColor.black.withAlphaComponent(alfaValueOfLoaderView)
         view.translatesAutoresizingMaskIntoConstraints = false
         return view
     }()
     
     //    loader image:
-    lazy var loadingImage:UIImageView = {
+    public lazy var loadingImage:UIImageView = {
         let image = UIImageView()
         image.center = loaderView.center
         image.image = UIImage(named: "loading")
@@ -44,7 +44,7 @@ class CustomLoader: UIView {
     }()
     
     //    loader labelText:
-    lazy var loadingLabel: UILabel = {
+    public lazy var loadingLabel: UILabel = {
         
         let label = UILabel()
         label.translatesAutoresizingMaskIntoConstraints = false
@@ -53,7 +53,7 @@ class CustomLoader: UIView {
         label.textColor = UIColor.white.withAlphaComponent(alphaValueOfLabel!)
         return label
     }()
-    func showCustomLoader(){
+    public func showCustomLoader(){
         self.loaderView.layer.masksToBounds = true
         self.loaderView.layer.cornerRadius = 4
         
@@ -84,7 +84,7 @@ class CustomLoader: UIView {
         
     }
     
-    func removeCustomLoader() {
+    public func removeCustomLoader() {
         self.loaderView.removeFromSuperview()
     }
     

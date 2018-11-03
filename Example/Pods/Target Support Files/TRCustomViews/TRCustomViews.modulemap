@@ -1,0 +1,6 @@
+framework module TRCustomViews {
+  umbrella header "TRCustomViews-umbrella.h"
+
+  export *
+  module * { export * }
+}

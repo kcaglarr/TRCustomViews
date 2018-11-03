@@ -1,0 +1,16 @@
+PODS:
+  - TRCustomViews (0.0.1)
+
+DEPENDENCIES:
+  - TRCustomViews (from `../TRCustomViews`)
+
+EXTERNAL SOURCES:
+  TRCustomViews:
+    :path: "../TRCustomViews"
+
+SPEC CHECKSUMS:
+  TRCustomViews: e88631100a9d392a5734dc29f9ede61098997bd9
+
+PODFILE CHECKSUM: 8fcb5de4d8dc31ed614790c6fedc7b71ab99015f
+
+COCOAPODS: 1.5.3
