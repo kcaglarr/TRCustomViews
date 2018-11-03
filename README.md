@@ -16,4 +16,5 @@ In your ViewController:
         CustomLoader.customLoaderInstance.showCustomLoader()
         
 Hide loader :
+
         CustomLoader.customLoaderInstance.removeCustomLoader()
