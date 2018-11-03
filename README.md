@@ -1,5 +1,5 @@
 # TRCustomViews - Setup and Usage
-TRCustomViews sizlere projelerinizde kullanmak isteyeceğiniz özellikler katar. Örneğin, özelleştirilebilen bir yükleniyor animasyonu, uyarılar (yakında) gibi
+TRCustomViews sizlere projelerinizde kullanmak isteyeceğiniz özellikler katar. Örneğin, özelleştirilebilen bir yükleniyor animasyonu, uyarılar (yakında) gibi. <br />
 TRCustomViews offers you the views you would like to use in your project, such as loading and alert (coming soon).
 # CocoaPods Install
 sudo gem install cocoapods
