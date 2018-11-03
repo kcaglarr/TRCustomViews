@@ -1,5 +1,5 @@
 # TRCustomViews - Setup and Usage
-
+TRCustomViews offers amazing view animations.
 # CocoaPods Install
 pod 'TRCustomViews'
 
