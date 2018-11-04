@@ -18,3 +18,6 @@ In your ViewController:
 Hide loader :
 
         CustomLoader.customLoaderInstance.removeCustomLoader()
+
+
+![](example.gif)
